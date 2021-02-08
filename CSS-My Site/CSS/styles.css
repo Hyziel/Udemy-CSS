@@ -1,0 +1,163 @@
+a {
+  color: #37718E;
+  margin: 10px 20px;
+}
+
+a:hover{
+  color: white;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* line-height: 2; */
+  color: #254E70;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  color: #254E70;
+  margin: 20px auto 50px auto;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #37718E;
+  margin: 20px auto 50px auto;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-color: grey;
+  border-width: 5px;
+  height: 2px;
+  width: 10%;
+  margin: 50px auto 50px auto;
+}
+
+.btn {
+  background: #37718E;
+  background-image: -webkit-linear-gradient(top, #37718E, #254E70);
+  background-image: -moz-linear-gradient(top, #37718E, #254E70);
+  background-image: -ms-linear-gradient(top, #37718E, #254E70);
+  background-image: -o-linear-gradient(top, #37718E, #254E70);
+  background-image: linear-gradient(to bottom, #37718E, #254E70);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #B0E0E6;
+  background-image: -webkit-linear-gradient(top, #B0E0E6, #37718E);
+  background-image: -moz-linear-gradient(top, #B0E0E6, #37718E);
+  background-image: -ms-linear-gradient(top, #B0E0E6, #37718E);
+  background-image: -o-linear-gradient(top, #B0E0E6, #37718E);
+  background-image: linear-gradient(to bottom, #B0E0E6, #37718E);
+  text-decoration: none;
+}
+.intro{
+  width: 30%;
+  margin: auto;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.footer-copyright {
+  color: #EAF6F6;
+}
+
+.profile {
+  margin-top: 50px;
+}
+
+.top-container {
+  margin: 0;
+  background-color: #B0E0E6;
+  padding-top: 100px;
+  position: relative;
+}
+
+/* My version petite image:
+.skill {
+  border-radius: 25%;
+  width: 200px;
+}*/
+/* Her version ?? */
+.skill-row {
+  width: 50%;
+  margin: 100px auto 0 auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+/* If want text not wrap to image
+.skill1description{
+  clear: left;
+}
+
+.skill2description{
+  clear: right;
+} */
+.pro {
+  text-decoration: underline;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.middle-container{
+  margin: 100px 0;
+}
+.bottom-container {
+  background-color: #B0E0E6;
+  margin: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.contact-me {
+  padding-bottom: 30px;
+}
+
+.footer-link {
+  margin-right: 20px;
+}
